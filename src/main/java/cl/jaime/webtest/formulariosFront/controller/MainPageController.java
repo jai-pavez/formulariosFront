@@ -15,7 +15,7 @@ public class MainPageController {
 	public String   index(Model model) {
 		System.out.println(" estoy en el index saludos");
         
-
 		return "index" ;
 	}
+	
 }
