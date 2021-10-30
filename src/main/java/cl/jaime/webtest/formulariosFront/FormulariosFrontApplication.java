@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "cl.jaime.webtest.formulariosFront")
 public class FormulariosFrontApplication extends SpringBootServletInitializer {
 
 	@Override 
